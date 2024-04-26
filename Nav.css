@@ -1,0 +1,20 @@
+body{
+    background-color: #359ebf;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+    margin-left:65px;
+    border-radius: 50%;
+}
+.Contact{
+    font-size: 20px;
+}
+.Social{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+}

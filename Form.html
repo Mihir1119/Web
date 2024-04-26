@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Feedback Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <style>
+        body {
+            background-color: #f0f0f0;
+            color: white;
+        }
+
+        .bold {
+            font-weight: 500;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+            background-color: #528aae;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 50px;
+        }
+
+        h2 {
+            color: #ffffff;
+        }
+
+        label {
+            display: inline -block;
+            margin-right: 8px;
+            color: #ffffff;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            margin-bottom: 16px;
+            box-sizing: border -box;
+            border: 1px solid #af9898;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #Bcd2e8;
+            color: rgb(107, 88, 88);
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #BC8F8F;
+            color: #fff8f8
+        }
+
+        .rating -container {
+            display: flex;
+            margin-bottom: 16px;
+        }
+
+        .rating -container input {
+            margin-right: 8px;
+        }
+
+        .rating -container label {
+            color: #fff8f8;
+        }
+
+        #new {
+            color: white;
+        }
+
+        .form -check -input {
+            margin-left: 1.75rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="display: flex; justify-content: center;">
+        <form class="needs-validation">
+            <h2>Faculty Feedback Form</h2>
+            <div class="mb-3">
+                <label for="validationCustom03" class="form-label form-validation-state 
+        bold">Student Name :</label>
+                <input type="text" class="form-control" id="validationCustom03" placeholder="Enter the student's name"
+                    spellcheck="false" autocomplete="off" required>
+                <div class="invalid-feedback">Please enter the student's name.</div>
+            </div>
+            <div class="mb-3">
+                <label for="validationCustom03" class="form-label form-validation-state 
+        bold">Roll no :</label>
+                <input type="text" class="form-control" id="validationCustom03"
+                    placeholder="Enter the student's roll no" spellcheck="false" autocomplete="off" required>
+                <div class="invalid-feedback">Please enter the student's roll no.</div>
+            </div>
+            <div class="mb-3">
+                <label for="validationCustom03" class="form-label form-validation-state 
+        bold">Faculty Name :</label>
+                <input type="text" class="form-control" id="validationCustom03" placeholder="Enter the faculty's name"
+                    spellcheck="false" autocomplete="off" required>
+                <div class="invalid-feedback">Please enter the faculty's name.</div>
+            </div>
+            <div class="mb-3">
+                <label for="validationCustom03" class="form-label form-validation-state 
+        bold">Subject Name :</label>
+                <input type="text" class="form-control" id="validationCustom03" placeholder="Enter the subject's name"
+                    spellcheck="false" autocomplete="off" required>
+                <div class="invalid-feedback">Please enter the subject's name.</div>
+            </div>
+            <label for="subject" class="form-label bold">Rating</label>
+            <div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1">
+                    <label class="form-check-label" for="inlineRadio1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio2">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio2">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio2">5</label>
+                </div>
+            </div>
+            <div class="mb-3" style="margin-top: 8px;">
+                <label for="exampleFormControlTextarea1" class="form-label 
+            bold">Suggestions</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" spellcheck="false"
+                    required></textarea>
+                <div class="invalid-feedback">Please provide your suggestions.</div>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Send responses to
+                    email</label>
+            </div>
+            <button type="submit" class="button">Submit</button>
+            <button type="button" class="button">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>

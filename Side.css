@@ -1,0 +1,14 @@
+body{
+    background-color: #9FBF35;
+}
+.name{
+    text-align: center;
+    h2{
+        font-size: 25px;
+        color:red;
+    }
+    h3{
+        margin-top:  0px;
+        font-size: 15px;
+    }
+}

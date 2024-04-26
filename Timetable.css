@@ -1,0 +1,70 @@
+body {
+    background: #9FBF35;
+  
+  }
+  
+  div {
+    position: relative;
+    animation: mymove 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes mymove {
+    from {
+      bottom: -600px;
+    }
+  
+    to {
+      bottom: 0px;
+    }
+  }
+  
+  h1 {
+    text-align: center;
+    color: crimson;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid rgb(41, 28, 225);
+    color: #000000;
+    text-align: center;
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #9FBF35;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a1 {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  c
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #FDEBD0;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #9FBF35;
+    color: black;
+  }
